@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toca dos Gatos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <h1>🐾 Toca dos Gatos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#gatinhos">Gatinhos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="sobre" class="intro">
+            <h2>Bem-vindo à Toca dos Gatos</h2>
+
+            <p>Nossa missão nasceu de um sonho simples: garantir que nenhum gatinho conheça a dor do abandono. Somos um abrigo dedicado a resgatar, reabilitar e encontrar lares seguros e amorosos para gatinhos que precisam de uma segunda chance.</p>
+            <br>
+            <p>Trabalhamos com seriedade e muito carinho para curar feridas físicas e emocionais dos nossos resgatados, preparando cada um deles para o momento mais especial de suas vidas: o encontro com você. Acreditamos profundamente que adotar é o ato de empatia mais puro que existe. É uma escolha capaz de transformar duas realidades para sempre — a do seu novo companheiro, que ganha um lar, e a sua, que ganha um amor incondicional e verdadeiro.</p>
+        </section>
+
+        <section id="gatinhos">
+            <h2>Gatinhos Disponíveis</h2>
+            <div class="galeria">
+                <!-- Gatinho 1 -->
+                <div class="card">
+                    <!-- A tag img substitui a div antiga -->
+                    <img src="https://images.pexels.com/photos/30613255/pexels-photo-30613255.jpeg" alt="Foto do gatinho Flocos" class="card-img">
+                    <h3>Flocos</h3>
+                    <p>Um gatinho branco, doce, tímido e muito leal. Precisa de uma família que lhe dê muito carinho e proteção.</p>
+                </div>
+                
+                <!-- Gatinho 2 -->
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/17915326/pexels-photo-17915326.jpeg" alt="Foto do gatinho Rajado" class="card-img">
+                    <h3>Rajado</h3>
+                    <p>Aventureiro e cheio de energia. Adora brincar com bolinhas e caixas de papelão.</p>
+                </div>
+
+                <!-- Gatinho 3 -->
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/31714609/pexels-photo-31714609.jpeg" alt="Foto da gatinha Luna" class="card-img">
+                    <h3>Luna</h3>
+                    <p>Tranquila e observadora. Gosta de dormir no sol e receber carinho na barriga.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Quero Adotar!</h2>
+            <form id="form-contato">
+                <input type="text" id="nome" placeholder="Seu Nome" required>
+                <input type="email" id="email" placeholder="Seu E-mail" required>
+                <textarea id="mensagem" placeholder="Qual gatinho roubou seu coração?" rows="4" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CodeFactory Solutions - Projeto Toca dos Gatos</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
