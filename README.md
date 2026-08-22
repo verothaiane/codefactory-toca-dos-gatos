@@ -60,3 +60,5 @@ Para garantir que a aplicação funcione da mesma forma em qualquer ambiente, ut
 
 ## Licença
 Este projeto é distribuído sob a Licença MIT.
+
+*Projeto em constante atualização pela equipe*
