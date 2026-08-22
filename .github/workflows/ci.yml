@@ -1,0 +1,16 @@
+name: Pipeline CI - Toca dos Gatos
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  testar-build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 1. Baixar o código do repositório
+      uses: actions/checkout@v3
+
+    - name: 2. Testar a construção da Imagem Docker
+      run: docker build -t tocadosgatos-teste .
