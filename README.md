@@ -1,7 +1,7 @@
 ## CodeFactory Solutions - Projeto Toca dos Gatos
 
 ## Descrição do Projeto
-O "Toca do Gato" é uma aplicação web estática focada em promover a adoção responsável de felinos, conectando gatinhos resgatados a lares amorosos. Desenvolvido pela **CodeFactory Solutions**, este projeto vai além da sua interface e atua como uma Prova de Conceito (PoC) oficial para a implementação da Cultura DevOps na empresa, visando solucionar problemas de padronização de ambiente e atrasos em entregas.
+O "Toca dos Gatos" é uma aplicação web estática focada em promover a adoção responsável de felinos, conectando gatinhos resgatados a lares amorosos. Desenvolvido pela **CodeFactory Solutions**, este projeto vai além da sua interface e atua como uma Prova de Conceito (PoC) oficial para a implementação da Cultura DevOps na empresa, visando solucionar problemas de padronização de ambiente e atrasos em entregas.
 
 ## Objetivo
 O objetivo principal é apresentar uma vitrine interativa de gatinhos para adoção, ao mesmo tempo em que moderniza os processos internos da equipe de desenvolvimento. Através deste repositório, o time estabelece um novo padrão técnico que abraça o versionamento colaborativo, a automação de testes via pipelines e a conteinerização da aplicação.
@@ -16,7 +16,7 @@ O objetivo principal é apresentar uma vitrine interativa de gatinhos para adoç
 
 ## Estrutura de Pastas
 ```text
-codefactory-toca-dos-gatos/
+codefactory-web/
 ├── .github/
 │   └── workflows/
 │       └── ci.yml          # Pipeline de automação (Integração Contínua)
@@ -34,7 +34,7 @@ Para obter uma cópia local do projeto e visualizar o código-fonte, execute os 
 
 1. Faça o clone do repositório:
    ```bash
-   git clone [https://github.com/verothaiane/codefactory-toca-dos-gatos](https://github.com/verothaiane/codefactory-toca-dos-gatos)
+   git clone https://github.com/verothaiane/codefactory-toca-dos-gatos
    ```
 2. Acesse a pasta do projeto:
    ```bash
